@@ -265,10 +265,13 @@ fixtures = [
     },
     {  "dt": "DocType",
         "filters": [
-            ["name", "=", "Brick Production"]
+            ["custom", "=", "1"]
         ]
     },
     {
-        "dt": "Print Format"
+        "dt": "Print Format",
+        "filters": [
+            ["standard", "=", "No"]
+        ]
     }
 ]
