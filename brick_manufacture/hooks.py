@@ -263,8 +263,9 @@ fixtures = [
     {
         "dt": "Custom Field",
         "filters": [
-            ["module", "=","Bricks"]
-        ]
+            ["module", "=", "Bricks"],
+            ["name", "!=", "Brick Production-workflow_state"]
+            ]
     },
     {
         "dt": "DocType",
