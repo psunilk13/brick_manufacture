@@ -261,7 +261,10 @@ fixtures = [
         "dt": "Workflow"
     },
     {
-        "dt": "Custom Field"
+        "dt": "Custom Field",
+        "filters": [
+            ["module", "=","Bricks"]
+        ]
     },
     {
         "dt": "DocType",
