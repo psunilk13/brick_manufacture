@@ -263,8 +263,10 @@ fixtures = [
     {
         "dt": "Custom Field"
     },
-    {
-        "dt": "DocType"
+    {  "dt": "DocType",
+        "filters": [
+            ["name", "=", "Brick Production"]
+        ]
     },
     {
         "dt": "Print Format"
