@@ -265,7 +265,13 @@ fixtures = [
         "filters": [
             ["module", "=", "Bricks"],
             ["name", "!=", "Brick Production-workflow_state"]
-            ]
+        ]
+    },
+    {
+        "dt": "Property Setter",
+        "filters": [
+            ["module", "=", "Bricks"]
+        ]
     },
     {
         "dt": "DocType",
